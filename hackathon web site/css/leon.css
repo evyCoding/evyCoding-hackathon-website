@@ -149,12 +149,14 @@ body {
 /* End Header */
 /* Start Landing Section */
 .landing {
-  background-image: url(../images/lading.jpg);
+  background-image: url(../images/main.png);
+  display: block;
   background-size: cover;
   height: calc(100vh - 64px);
   position: relative;
-  background: #000A12;
 }
+
+
 .landing .intro-text {
   position: absolute;
   left: 50%;
